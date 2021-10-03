@@ -49,7 +49,7 @@ class About extends React.Component {
         {
           id: "second-p-about",
           content:
-            "Ever since I was young I've had a passion for Computers. When I got older I decided to Pursue a carrer in coding. I have been coding for 6 moths now and have learned alot. I plan to contine my eduction for thes rest of my life."
+            "Ever since I was young I've had a passion for Computers. When I got older I decided to Pursue a carrer in coding. I have been coding for 6 moths now and have learned alot. I plan to continue my eduction for the rest of my life."
         }
       ]
     };
@@ -66,6 +66,10 @@ class About extends React.Component {
                 <div className="row">
                   <div className="col-md-6">
                     <div className="row">
+                    <img src={myImage}
+                            className="img-fluid rounded b-shadow-a"
+                            alt=""
+                          />
                       <div
                         className="col-sm-6 col-md-5"
                         style={{ margin: "0 auto" }}
@@ -74,10 +78,7 @@ class About extends React.Component {
                           className="about-img"
                           style={{ textAlign: "center" }}
                         >
-                          <img
-                            className="img-fluid rounded b-shadow-a"
-                            alt=""
-                          />
+                          
                         </div>
                       </div>
                     </div>
